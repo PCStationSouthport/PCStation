@@ -1,0 +1,196 @@
+
+/* Ensure that body and html elements are set to 100% width and have no overflow */
+html, body {
+line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+* {
+    box-sizing: border-box; /* Ensures padding and borders don't affect width calculations */
+}
+
+
+/* General navbar styling */
+.navbar {
+  background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent dark background */
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for better contrast */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-logo {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Navbar Links */
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+margin-right:2%;
+}
+
+.navbar-links ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 12px 20px; /* Adjusted padding */
+  transition: background-color 0.3s, transform 0.2s; /* Add a smooth transition for both background and scaling */
+  display: block;
+  text-align: center;
+  border-radius: 8px; /* Round the edges of the buttons */
+}
+
+/* Hover Effect */
+.navbar-links a:hover {
+  background-color: #444; /* Solid dark background on hover */
+  transform: scale(1.1); /* Slight scale effect on hover to make the button feel interactive */
+}
+
+/* Mobile Styling */
+.navbar-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.navbar-toggle .bar {
+  background-color: #fff;
+  height: 4px;
+  width: 25px;
+  margin: 3px 0;
+}
+
+/* Hide the links by default on mobile */
+#navbar-links {
+  display: flex;
+  justify-content: flex-end; /* Align links to the right by default */
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    display: none; /* Hide the navbar links by default */
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.8); /* Transparent background on mobile too */
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 10px 0; /* Add padding for spacing */
+  }
+
+  .navbar-links.active {
+    display: flex; /* Show links when activated */
+  }
+
+  .navbar-toggle {
+    display: flex;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links li {
+    text-align: center;
+    margin: 0;
+  }
+
+  .navbar-links a {
+    padding: 12px;
+    width: 100%; /* Make links fill the screen on mobile */
+    text-align: center;
+  }
+
+  /* Mobile Hover Effect */
+  .navbar-links a:hover {
+    background-color: #444; /* Solid dark background on hover for mobile too */
+    transform: scale(1.1); /* Slight scale effect on hover */
+  }
+}
+
+
+
+
+/* General Page Styling */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;  /* Ensures the body takes up at least the full height */
+}
+
+.main-content {
+  flex: 1; /* This makes sure the main content takes all available space */
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to the top of the footer */
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Optional: Add some styling for the footer text */
+.footer-content p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Mobile styling for the footer */
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 15px 0;
+  }
+
+  .footer-content p {
+    font-size: 12px;
+  }
+}
+
+/* Ensures the footer is at the bottom of the page when the content is short */
+footer {
+  margin-top: auto; /* This ensures the footer is pushed to the bottom when there’s not enough content */
+}
