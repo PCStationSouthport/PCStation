@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-permalink: /
+permalink: /PCStation/
 ---
 
 <link rel="stylesheet" href="/assets/css/home.css">
