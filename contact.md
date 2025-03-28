@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact Us
-permalink: /contact/
+permalink: /PCStation/contact/
 ---
 
 <link rel="stylesheet" href="/assets/css/contact.css">
