@@ -26,7 +26,7 @@ email: pc.station.southport@gmail.com
 
 description: >- # "Your guide for building and repairing computers."
 
-baseurl: "PCStation" # the subpath of your site, e.g. /blog
+baseurl: "/PCStation" # the subpath of your site, e.g. /blog
 
 url: "https://PCStationSouthport.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
