@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: serv
 title: Services
 permalink: /services/
 ---
