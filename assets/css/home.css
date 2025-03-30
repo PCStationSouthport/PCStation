@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero {
-    background-image: url('/assets/img/hero.jpg'); /* Hero background image */
+    background-image: url({{ "/assets/img/hero.jpg" | relative_url }}); /* Hero background image */
     background-size: cover;
     background-position: center;
     height: 100vh;
