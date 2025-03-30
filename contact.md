@@ -24,7 +24,7 @@ permalink: /contact/
                 <h2>Got a Question, Send Us a Message</h2>
 
                 <form action="https://formsubmit.co/b8476fda8d53692914cdb6922f2f6216" method="POST">
-    <input type="hidden" name="_captcha" value="false"> <!-- Disables CAPTCHA -->
+    <input type="hidden" name="_captcha" value="true"> <!-- Disables CAPTCHA -->
     <input type="hidden" name="_next" value="https://pcstationsouthport.github.io/PCStation/thank-you/"> <!-- Redirect after submission -->
     
 
