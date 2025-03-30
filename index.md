@@ -11,7 +11,7 @@ permalink: /
     <div class="hero-content">
         <h1>Reliable Computer Repair & Custom PC Builds</h1>
         <p>Get your devices fixed quickly and efficiently or build the PC of your dreams.</p>
-        <a href="/services" class="btn-primary">View Services</a>
+        <a href="{{ site.baseurl }}/services/" class="btn-primary">View Services</a>
     </div>
 </section>
 
@@ -45,7 +45,7 @@ permalink: /
         <div class="about-text">
             <h2>What We Do</h2>
             <p>At [Your Company Name], we specialize in providing high-quality computer repair services and custom PC builds. Whether it's fixing a slow computer, upgrading hardware, or building a custom rig tailored to your needs, we’ve got you covered!</p>
-            <a href="/services" class="btn-primary">Learn More</a>
+            <a href="{{ site.baseurl }}/services/" class="btn-primary">Learn More</a>
         </div>
         <div class="about-image">
             <img src="{{ site.baseurl }}/assets/img/what.jpg" alt="Computer Repair">
@@ -82,6 +82,6 @@ permalink: /
     <div class="container">
         <h2>Ready to Get Started?</h2>
         <p>Contact us today for a free consultation and let’s get your computer back in top shape or build your dream machine!</p>
-        <a href="/contact" class="btn-primary">Contact Us</a>
+        <a href="{{ site.baseurl }}/contact/" class="btn-primary">Contact Us</a>
     </div>
 </section>
