@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cont
 title: Contact Us
 permalink: /contact/
 ---
