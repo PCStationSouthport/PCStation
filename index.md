@@ -44,7 +44,7 @@ permalink: /
     <div class="container about-container">
         <div class="about-text">
             <h2>What We Do</h2>
-            <p>At [Your Company Name], we specialize in providing high-quality computer repair services and custom PC builds. Whether it's fixing a slow computer, upgrading hardware, or building a custom rig tailored to your needs, we’ve got you covered!</p>
+            <p>At PC Station, we specialize in providing high-quality computer repair services and custom PC builds. Whether it's fixing a slow computer, upgrading hardware, or building a custom rig tailored to your needs, we’ve got you covered!</p>
             <a href="{{ site.baseurl }}/services/" class="btn-primary">Learn More</a>
         </div>
         <div class="about-image">
