@@ -40,7 +40,7 @@ permalink: /contact/
                     <textarea id="message" name="message" required aria-label="Enter your message"></textarea>
 
    <!-- reCAPTCHA -->
-    <div class="g-recaptcha" data-sitekey="6LfkzAMrAAAAAEqO5HeaBSBvlNP5GgXGwnX8I8QH"></div>
+    
 
 
                     <button type="submit">Send Message</button>
@@ -77,6 +77,6 @@ permalink: /contact/
     </div>
 </section>
 
-<script src="/assets/js/contact.js"></script>
+<script src="/assets/js/contacts.js"></script>
 <!-- Include Google reCAPTCHA Script -->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
