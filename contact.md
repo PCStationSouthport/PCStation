@@ -4,7 +4,7 @@ title: Contact Us
 permalink: /contact/
 ---
 
-<link rel="stylesheet" href="/assets/css/contact.css">
+
 
 <!-- Hero Section -->
 <section class="hero">
