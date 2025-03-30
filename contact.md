@@ -22,7 +22,14 @@ permalink: /contact/
         <div class="contact-form-container">
             <div class="contact-form">
                 <h2>Got a Question, Send Us a Message</h2>
-                <form action="#" method="post" id="contactForm">
+
+                <form action="https://formsubmit.co/b8476fda8d53692914cdb6922f2f6216" method="POST">
+    <input type="hidden" name="_captcha" value="false"> <!-- Disables CAPTCHA -->
+    <input type="hidden" name="_next" value="https://pcstationsouthport.github.io/PCStation/thank-you/"> <!-- Redirect after submission -->
+    
+
+
+
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required aria-label="Enter your name">
                     
