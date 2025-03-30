@@ -23,7 +23,7 @@ permalink: /contact/
             <div class="contact-form">
                 <h2>Got a Question, Send Us a Message</h2>
 
-                <form action="https://formsubmit.co/b8476fda8d53692914cdb6922f2f6216" method="POST"   data-recaptcha="true">
+                <form id="contact-form" action="https://formsubmit.co/b8476fda8d53692914cdb6922f2f6216" method="POST"   data-recaptcha="true">
     <input type="visible" name="_captcha" value="true"> <!-- Disables CAPTCHA -->
     <input type="hidden" name="_next" value="https://pcstationsouthport.github.io/PCStation/thank-you/"> <!-- Redirect after submission -->
     
