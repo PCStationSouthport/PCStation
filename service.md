@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Services
-permalink: /PCStation/services/
+permalink: /services/
 ---
 
 <link rel="stylesheet" href="/assets/css/services.css">
