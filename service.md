@@ -11,7 +11,7 @@ permalink: /services/
     <div class="hero-content">
         <h1>Fast & Reliable Device Repair Services</h1>
         <p>We offer expert repair services and custom builds for your computers and devices.</p>
-        <a href="/contact" class="btn-primary">Contact Us</a>
+        <a href="{{ site.baseurl }}/contact/" class="btn-primary">Contact Us</a>
     </div>
 </section>
 
