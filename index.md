@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-<link rel="stylesheet" href="/assets/css/home.css">
+
 
 <!-- Hero Section -->
 <section class="hero">
