@@ -4,7 +4,7 @@ title: Services
 permalink: /services/
 ---
 
-<link rel="stylesheet" href="/assets/css/services.css">
+
 
 
 <section class="hero">
